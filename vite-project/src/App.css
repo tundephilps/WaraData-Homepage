@@ -1,0 +1,21 @@
+
+
+
+.circle {
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: none;
+  }
+  
+  .position-relative:hover .circle {
+    display: block;
+  }
+
+
+
