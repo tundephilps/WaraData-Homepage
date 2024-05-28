@@ -17,8 +17,8 @@ export const Contact = () => {
     return phoneNumberPattern.test(phoneNumber);
   };
   return (
-    <main className="py-14">
-      <div className="max-w-screen-xl mx-auto px-4 text-gray-600 md:px-8">
+    <main className="py-14 bg-white ">
+      <div className="max-w-screen-xl mx-auto px-4 text-gray-600 md:px-8 ">
         <p className="text-black font-semibold text-6xl lg:w-[40%] w-full ">
           Get in touch for enquiry today.
         </p>
@@ -87,9 +87,7 @@ export const Contact = () => {
             </form>
           </div>
           <div className=" space-y-3 lg:w-[50%]">
-            <p className="text-white text-[2px] font-semibold sm:text-4xl">
-              Let
-            </p>
+            <p className="text-white text-[2px] font-semibold sm:text-4xl">.</p>
             <div>
               <label className="font-medium">Message</label>
               <textarea

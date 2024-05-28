@@ -51,25 +51,25 @@ export const Footer = () => {
           <ul className="flex items-center space-x-4">
             <li className="w-10 h-10 border rounded-full flex items-center justify-center">
               <a href="javascript:void()">
-                <img src={YOUTUBE} class="svg-icon w-6 h-6 text-blue-500" />
+                <img src={YOUTUBE} className="svg-icon w-6 h-6 text-blue-500" />
               </a>
             </li>
 
             <li className="w-10 h-10 border rounded-full flex items-center justify-center">
               <a href="javascript:void()">
-                <img src={insta} class="svg-icon w-6 h-6 text-blue-500" />
+                <img src={insta} className="svg-icon w-6 h-6 text-blue-500" />
               </a>
             </li>
 
             <li className="w-10 h-10 border rounded-full flex items-center justify-center">
               <a href="javascript:void()">
-                <img src={X} class="svg-icon w-6 h-6 text-blue-500" />
+                <img src={X} className="svg-icon w-6 h-6 text-blue-500" />
               </a>
             </li>
 
             <li className="w-10 h-10 border rounded-full flex items-center justify-center">
               <a href="javascript:void()">
-                <img src={META} class="svg-icon w-6 h-6 text-red-600" />
+                <img src={META} className="svg-icon w-6 h-6 text-red-600" />
               </a>
             </li>
           </ul>

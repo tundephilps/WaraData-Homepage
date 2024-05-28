@@ -50,30 +50,30 @@ const Plan = () => {
       <img
         src={hero}
         alt=""
-        className="absolute inset-[0%] z-[-10] inline-block lg:h-[100vh] md:h-[155vh] h-[250vh] w-full object-cover"
+        className="absolute inset-[0%] z-[-10] inline-block lg:h-[100vh] md:h-[155vh] h-[110%] w-full object-cover"
       />
-      <section class="text-gray-600 body-font">
-        <div class="container px-5 py-24 mx-auto">
-          <div class="flex flex-wrap w-full mb-20">
-            <div class="lg:w-1/2 w-full mb-6 lg:mb-0">
-              <h1 class="text-3xl lg:text-4xl font-extrabold title-font mb-2 text-gray-100 lg:w-[60%] w-full">
+      <section className="text-gray-600 body-font">
+        <div className="container px-5 py-24 mx-auto">
+          <div className="flex flex-wrap w-full mb-20">
+            <div className="lg:w-1/2 w-full mb-6 lg:mb-0">
+              <h1 className="text-3xl lg:text-4xl font-extrabold title-font mb-2 text-gray-100 lg:w-[60%] w-full">
                 Most Affordable MTN SME, GLO, AIRTEL and 9MOBILE CG Data Pricing
                 List
               </h1>
-              <div class="h-1 w-20 bg-indigo-500 rounded"></div>
+              <div className="h-1 w-20 bg-indigo-500 rounded"></div>
             </div>
-            <p class="lg:w-1/2 w-full leading-relaxed text-gray-500">
+            <p className="lg:w-1/2 w-full leading-relaxed text-gray-500">
               MTN SME Data is a special package that designed for small and
               medium businesses. It gives you a flat rate for data that you can
               use to connect your devices, such as laptops and tablets, to the
               internet.
             </p>
           </div>
-          <div class="flex flex-wrap -m-4">
+          <div className="flex flex-wrap -m-4">
             {/* MTN Card */}
-            <div class="xl:w-1/4 md:w-1/2 p-4">
+            <div className="xl:w-1/4 md:w-1/2 p-4">
               <div
-                class="bg-[#FFDD55] rounded-xl p-6 "
+                className="bg-[#FFDD55] rounded-xl p-6 "
                 style={{ borderRadius: "20px 70px 20px 20px" }}
               >
                 <div className="flex flex-row justify-between items-center">
@@ -112,9 +112,9 @@ const Plan = () => {
               </div>
             </div>
             {/* Airtel Card */}
-            <div class="xl:w-1/4 md:w-1/2 p-4">
+            <div className="xl:w-1/4 md:w-1/2 p-4">
               <div
-                class="bg-[#FF5555] rounded-xl p-6 "
+                className="bg-[#FF5555] rounded-xl p-6 "
                 style={{ borderRadius: "20px 70px 20px 20px" }}
               >
                 <div className="flex flex-row justify-between items-center">
@@ -153,9 +153,9 @@ const Plan = () => {
               </div>
             </div>
             {/* Glo Card */}
-            <div class="xl:w-1/4 md:w-1/2 p-4">
+            <div className="xl:w-1/4 md:w-1/2 p-4">
               <div
-                class="bg-[#1fa915] rounded-xl p-6 "
+                className="bg-[#1fa915] rounded-xl p-6 "
                 style={{ borderRadius: "20px 70px 20px 20px" }}
               >
                 <div className="flex flex-row justify-between items-center">
@@ -191,9 +191,9 @@ const Plan = () => {
               </div>
             </div>
             {/* 9 Mobile */}
-            <div class="xl:w-1/4 md:w-1/2 p-4">
+            <div className="xl:w-1/4 md:w-1/2 p-4">
               <div
-                class="bg-[#D6E806] rounded-xl p-6 "
+                className="bg-[#D6E806] rounded-xl p-6 "
                 style={{ borderRadius: "20px 70px 20px 20px" }}
               >
                 <div className="flex flex-row justify-between items-center">

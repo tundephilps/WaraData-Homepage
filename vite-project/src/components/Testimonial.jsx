@@ -28,7 +28,7 @@ export const Testimonial = () => {
   ];
 
   return (
-    <section className="py-1 pb-14 ">
+    <section className="py-1 pb-14 z-50 bg-white">
       <div className="max-w-screen-xl mx-auto px-4 md:px-8">
         <div className="max-w-xl sm:text-center md:mx-auto">
           <p className="font-bold text-[#17c2ec]">FEEDBACK</p>

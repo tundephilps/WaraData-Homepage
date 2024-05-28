@@ -15,7 +15,7 @@ function App() {
     <>
       <Navbar />
       <NavbarMobile />
-      <div className="relative -z-10">
+      <div className="relative -z-10 overflow-x-hidden">
         <Hero />
       </div>
       <div className="z-auto">
@@ -24,15 +24,14 @@ function App() {
       <div>
         <Plan />
       </div>
-      <div>
-        <Contact />
-      </div>
+      <Contact />
+
       <Services />
 
-      <div className="lg:hidden block">
+      <div className="lg:hidden block ">
         <Services2 />
       </div>
-      <div className="relative z-[99] lg:pt-0 pt-32">
+      <div className="relative z-50 lg:pt-0 pt-32">
         <Testimonial />
       </div>
       <Footer />

@@ -15,13 +15,13 @@ export const Services2 = () => {
       <img
         src={hero}
         alt=""
-        className="absolute inset-[0%]   md:h-[150vh] h-[120vh]  w-full object-cover z-[-10]"
+        className="absolute inset-[0%]   md:h-[150vh] h-[143vh]  w-full object-cover z-[-10]"
       />
-      <div class="flex flex-col text-center w-full mb-20 pt-20">
-        <h2 class="text-sm text-white tracking-widest font-medium title-font pb-3">
+      <div className="flex flex-col text-center w-full mb-20 pt-20">
+        <h2 className="text-sm text-white tracking-widest font-medium title-font pb-3">
           Few out of many
         </h2>
-        <h1 class="sm:text-3xl text-4xl font-medium title-font text-[#247fff]">
+        <h1 className="sm:text-3xl text-4xl font-medium title-font text-[#247fff]">
           Waradata <span className="text-white">Services</span>
         </h1>
         <p className="pt-3 text-white">
@@ -32,10 +32,10 @@ export const Services2 = () => {
         </p>
       </div>
       <div className="max-w-screen-xl mx-auto px-4 flex-wrap gap-x-12 justify-center items-center md:flex md:px-8 lg:flex-nowrap">
-        <div className="max-w-xl space-y-3">
-          <img src={Person} />
+        <div className="max-w-xl ">
+          <img src={Person} className="" />
         </div>
-        <div className="flex-none mt-12 text-white lg:mt-0">
+        <div className="flex-none mt-0 text-white lg:mt-0">
           <ul className="grid grid-cols-2 gap-2 items-center justify-center [&>*]:bg-gray-700 [&>*]:w-full [&>*]:h-20 [&>*]:flex sm:[&>*]:px-14">
             {/* LOGO 1 */}
             <li className="flex flex-col gap-3 items-center justify-center mx-auto">

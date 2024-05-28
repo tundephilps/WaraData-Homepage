@@ -18,13 +18,13 @@ const Services = () => {
         alt=""
         className="absolute inset-[0%]  inline-block lg:h-[100vh] h-[220vh] w-full object-cover z-[-10]"
       />
-      <section class="text-gray-600 body-font">
-        <div class="container px-1 py-24 mx-auto">
-          <div class="flex flex-col text-center w-full mb-20">
-            <h2 class="text-sm text-white tracking-widest font-medium title-font pb-3">
+      <section className="text-gray-600 body-font">
+        <div className="container px-1 py-24 mx-auto">
+          <div className="flex flex-col text-center w-full mb-20">
+            <h2 className="text-sm text-white tracking-widest font-medium title-font pb-3">
               Few out of many
             </h2>
-            <h1 class="sm:text-3xl text-4xl font-medium title-font text-[#247fff]">
+            <h1 className="sm:text-3xl text-4xl font-medium title-font text-[#247fff]">
               Waradata <span className="text-white">Services</span>
             </h1>
             <p className="pt-3">
@@ -34,8 +34,8 @@ const Services = () => {
               Coming soon with subscription for TV and Electricity.
             </p>
           </div>
-          <div class="flex lg:justify-between flex-row -m-2">
-            <div class="p-4 ">
+          <div className="flex lg:justify-between flex-row -m-2">
+            <div className="p-4 ">
               <ul className="grid grid-row-3 gap-16 items-center justify-center [&>*]:bg-gray-700 [&>*]:w-full [&>*]:h-20 [&>*]:flex sm:[&>*]:px-14">
                 {/* LOGO 1 */}
                 <li className="relative items-center justify-center">
@@ -64,10 +64,10 @@ const Services = () => {
                 </li>
               </ul>
             </div>
-            <div class="p-4 ">
+            <div className="p-4 ">
               <img src={Person} className="w-full h-[500px]" alt="" />
             </div>
-            <div class="p-4 ">
+            <div className="p-4 ">
               <ul className="grid grid-row-3 gap-16 items-center justify-center [&>*]:bg-gray-700 [&>*]:w-full [&>*]:h-20 [&>*]:flex sm:[&>*]:px-14">
                 {/* LOGO 1 */}
                 <li className="relative items-center justify-center">
